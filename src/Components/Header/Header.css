@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Lobster&display=swap');
+.navbar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'EB Garamond', serif;
+    padding: 20px;
+}
+.navlinks{
+    display:flex;
+    align-items: center;
+}
+.navbar img{
+    width: 80px;
+}
+ul{
+    display:flex
+}
+
+ul li{
+    list-style: none;
+    font-size: 1.5rem;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.navlinks button{
+    padding: 10px;
+    font-size: 20px;
+    width: 250px;
+    border: 2px solid #fc687b;
+    background-color: white;
+    color: #fc687b;
+    border-radius: 20px;
+    transition: 1s ease;
+    cursor: pointer;
+}
+.navlinks button:hover{
+    color: white;;
+    background-color: #fc687b;
+}
